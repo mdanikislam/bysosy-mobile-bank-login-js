@@ -23,15 +23,46 @@
         <div class="mockup-phone-camera"></div>
         <div class="mockup-phone-display">
           <div class="hero bg-base-200 min-h-screen">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-            <h1>Welcome BYOSY Mobile Bank</h1>
-           
+            <div class="hero-content flex-col ">
+              <!-- stat  -->
+              <div class="stats shadow">
+                <div class="stat">
+                  <div id="main-balance" class="stat-value">9400</div>
               </div>
-            </div>
+              </div>
+              <div class="divider"></div>
+              <button class="btn btn-outline btn-accent">Add Money</button>
+              <button class="btn btn-outline btn-error">Cash Out</button>
+              <fieldset
+              class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4"
+            >
+              
+
+              <label class="label">Amount</label>
+              <input
+                id="input-balance"
+                type="text"
+                class="input"
+                placeholder="Enter Amount"
+              />
+
+              <label class="label">Password</label>
+              <input
+                id="input-balance-pin"
+                type="password"
+                class="input"
+                placeholder="Enter Pin"
+              />
+
+              <button id="add-money" class="btn btn-primary mt-4">
+                Add Money
+              </button>
+            </fieldset>
           </div>
         </div>
       </div>
     </section>
 
+    <script src="home.js"></script>
   </body>
 </html>
